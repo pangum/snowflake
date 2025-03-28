@@ -1,0 +1,5 @@
+id:
+  snowflake:
+    node: 1
+    worker: 1
+    sequence: 1
