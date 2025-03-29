@@ -11,6 +11,7 @@ func New(config *config.Snowflake) id.Generator {
 		Node(config.Node).
 		Worker(config.Worker).
 		Sequence(config.Sequence).
-		Start(config.Start).
+		Epoch(config.Epoch).
+		Skip(config.Skip).
 		Build()
 }

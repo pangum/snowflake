@@ -5,8 +5,10 @@ import (
 )
 
 type Snowflake struct {
-	// 开始时间
-	Start time.Time `json:"start,omitempty"`
+	// 跳过数量
+	Skip uint64 `json:"skip,omitempty"`
+	// 时间点，有此配置后，生成的标识时间都为此配置时间
+	Epoch time.Time `json:"epoch,omitempty"`
 	// 集群标识
 	Node uint64 `default:"1" json:"node,omitempty" validate:"required,min=1,max=32"`
 	// 工作节点标识
