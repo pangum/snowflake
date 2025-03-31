@@ -1,4 +1,4 @@
-package id
+package snowflake
 
 import (
 	"github.com/goexl/id"
