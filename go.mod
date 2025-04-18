@@ -3,7 +3,7 @@ module github.com/pangum/snowflake
 go 1.24
 
 require (
-	github.com/goexl/id v0.1.1
+	github.com/goexl/id v0.1.3
 	github.com/goexl/snowflake v0.0.7
 	github.com/pangum/pangu v1.6.3
 )
