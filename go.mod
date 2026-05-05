@@ -1,10 +1,10 @@
 module github.com/pangum/snowflake
 
-go 1.24
+go 1.25
 
 require (
-	github.com/goexl/id v0.1.1
-	github.com/goexl/snowflake v0.0.7
+	github.com/goexl/id v0.1.3
+	github.com/goexl/snowflake v0.1.2
 	github.com/pangum/pangu v1.6.3
 )
 
@@ -26,7 +26,6 @@ require (
 	github.com/goexl/structer v0.1.9 // indirect
 	github.com/goexl/xiren v0.0.8 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/kkrypt0nn/spaceflake v1.5.1 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -35,6 +34,7 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
+	github.com/sony/sonyflake/v2 v2.2.0 // indirect
 	github.com/urfave/cli/v2 v2.27.6 // indirect
 	github.com/xrash/smetrics v0.0.0-20240521201337-686a1a2994c1 // indirect
 	github.com/zs5460/art v0.3.0 // indirect
